@@ -1,4 +1,9 @@
 Demo::Application.routes.draw do |map|
+
+  match 'hola' => 'hola#mundo'
+  match 'hola/:id' => 'hola#caluroso'
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
